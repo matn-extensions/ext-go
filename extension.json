@@ -1,0 +1,15 @@
+{
+  "id": "matn.ext.go",
+  "name": "Go Language Server (gopls)",
+  "version": "1.0.0",
+  "author": "Matn Team",
+  "description": "Real-time Go diagnostics, completion, hover docs, and definition navigation via gopls",
+  "category": "languages",
+  "type": "lsp",
+  "language": "go",
+  "server": "gopls",
+  "command": "gopls",
+  "extensions": [".go"],
+  "rootMarkers": ["go.mod", "go.sum", ".git"],
+  "repository": "https://github.com/matn-extensions/ext-go"
+}
